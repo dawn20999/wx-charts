@@ -1,0 +1,10 @@
+/* pages/dashboard/view.wxss */
+.btn {
+    width: 80%;
+}
+
+.btn-success {
+    background-color: #449d44;
+    border-color: #398439;
+    color: #fff;
+}
