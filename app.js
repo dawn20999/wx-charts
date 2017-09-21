@@ -1,4 +1,5 @@
-//app.js
+const wechart = require('./utils/wechart')
+const Promise = require('./utils/bluebird')
 App({
   onLaunch: function () {
     //调用API从本地缓存中获取数据
@@ -25,6 +26,8 @@ App({
     }
   },
   globalData:{
+    name: 'metrics',
+    version: '0.1.0',
     userInfo:null
   }
 })
