@@ -1,2 +1,2 @@
 # wx-metrics
-微信度量小程序
+微信wx-charts小程序
